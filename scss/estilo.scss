@@ -1,3 +1,121 @@
-.batata{
-	font-size:40px;
+
+.imagen{
+	width: 50%;
+	height: 663px;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	line-height: 1.5;
+	background-color: #B0EFEF;
+}
+nav {
+	background-color: #83D9DC;
+	width: 100%;
+	height: 140px;
+}
+
+nav ul {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	margin-right: 40px;
+	background-color: #83D9DC;
+}
+
+nav ul li {
+	margin: 50px;
+	list-style-type: none;
+	background-color: #83D9DC;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	background-color: #83D9DC;
+}
+
+li a.active, li a:hover{
+    background-color: #B0EFEF;
+    color: white;
+    transition: .5s;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.checkbtn {
+    font-size: 50px;
+    color: white;
+    float: right;
+    line-height: 150px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none; 
+}
+
+#check {
+    display: none; 
+}
+
+.desarrollo {
+	width: 50%;
+	height: 100vh;
+	position: absolute;
+}
+
+.caja-web {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+
+.web {
+	font-size: 65px;
+	font-family: bold italic;
+	margin-right: 110px;
+	margin-top: 45px;
+}
+
+.yo-facha {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	position: absolute;
+	margin-right: 280px;
+	margin-top: -325px;
+}
+
+.caja-presentacion {
+	width: 500px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	margin-left: 770px;
+}
+
+.presentacion {
+	font-size: 16px;
+	margin-top: 200px;
+}
+
+.mis-proyectos {
+	font-size: 65px;
+	font-family: bold italic;
+	margin-right: 173px;
+	margin-top: 30px;
+}
+
+.bolva {
+	font-size: 16px;
+	margin-left: 780px;
+	margin-top: 50px;
+}
+
+.mipor {
+	font-size: 16px;
+	margin-left: 780px;
+	margin-top: 50px;
 }
