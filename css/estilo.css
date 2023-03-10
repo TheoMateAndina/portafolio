@@ -1,14 +1,17 @@
-.imagen {
-  width: 50%;
-  height: 663px; }
+body {
+  background-color: #B0EFEF; }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  line-height: 1.5;
-  background-color: #B0EFEF; }
+  line-height: 1.5; }
+
+.desarrollo {
+  width: 40%;
+  height: 100%;
+  position: absolute; }
 
 nav {
   background-color: #83D9DC;
@@ -17,9 +20,9 @@ nav {
 
 nav ul {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: flex-end;
-  margin-right: 40px;
+  margin-right: 95px;
   background-color: #83D9DC; }
 
 nav ul li {
@@ -52,53 +55,171 @@ li a.active, li a:hover {
 #check {
   display: none; }
 
-.desarrollo {
-  width: 50%;
-  height: 100vh;
-  position: absolute; }
-
-.caja-web {
+.fototheo {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end; }
-
-.web {
-  font-size: 65px;
-  font-family: bold italic;
-  margin-right: 110px;
-  margin-top: 45px; }
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  margin: 0px 335px;
+  padding: 30px; }
 
 .yo-facha {
   width: 120px;
   height: 120px;
-  border-radius: 50%;
-  position: absolute;
-  margin-right: 280px;
-  margin-top: -325px; }
+  border-radius: 50%; }
+
+.cajon-presentacion {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: flex-end; }
 
 .caja-presentacion {
   width: 500px;
+  height: 150px;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
-  margin-left: 770px; }
+  float: right;
+  margin-right: 175px;
+  margin-bottom: 90px; }
 
 .presentacion {
-  font-size: 16px;
-  margin-top: 200px; }
+  text-align: center; }
 
-.mis-proyectos {
-  font-size: 65px;
-  font-family: bold italic;
-  margin-right: 173px;
+.caja-web {
+  width: 500px;
+  height: 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  margin-right: 175px; }
+
+.web {
+  text-align: center;
+  margin-right: 100px; }
+
+.caja-mis {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  margin-right: 280px;
   margin-top: 30px; }
 
+.mis-proyectos {
+  text-align: center;
+  font-size: 45px; }
+
+.caja-proyectos {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: flex-end;
+  margin-right: 160px;
+  margin-top: 80px; }
+
 .bolva {
+  text-align: center;
   font-size: 16px;
-  margin-left: 780px;
-  margin-top: 50px; }
+  margin-bottom: 30px; }
 
 .mipor {
+  text-align: left;
+  font-size: 16px; }
+
+.mis-contact {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  margin-right: 280px;
+  margin-top: 30px; }
+
+.contact {
+  text-align: center;
+  font-size: 45px; }
+
+.cajon-contact {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: flex-end; }
+
+.caja-redes {
+  display: grid;
+  grid-template-columns: auto;
+  margin-right: 80px; }
+
+.ubic {
+  text-align: center;
   font-size: 16px;
-  margin-left: 780px;
+  margin-right: 20px;
   margin-top: 50px; }
+
+.celu {
+  text-align: center;
+  font-size: 16px; }
+
+.correo {
+  text-align: center;
+  font-size: 16px; }
+
+.redes {
+  text-align: center;
+  font-size: 16px; }
+
+.logoti {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-top: -30px; }
+
+.fa-bards {
+  margin-right: 20px; }
+
+.face {
+  color: #0008FF;
+  font-size: 29px;
+  margin-right: 70px; }
+
+.ig {
+  color: darkorange;
+  font-size: 29px;
+  margin-right: 70px; }
+
+.twitter {
+  color: #008BFF;
+  font-size: 29px;
+  margin-right: 0px; }
+
+.face:hover {
+  color: #020589; }
+
+.ig:hover {
+  color: #B05B01; }
+
+.twitter:hover {
+  color: #185FEC; }
+
+.cajondeformulario {
+  width: 83%;
+  height: 345px;
+  margin-top: 5px;
+  margin-right: 100px;
+  float: right;
+  background-color: #83D9DC;
+  border-radius: 20px; }
+
+.mb-3 {
+  width: 300px;
+  padding-left: 40px;
+  padding-top: 8px;
+  color: white; }
+
+.form-control {
+  margin: auto;
+  height: 40px; }
+
+.col-12 {
+  padding-left: 40px;
+  padding-top: 0px;
+  padding-bottom: 40px; }
+
+.btn-primary {
+  width: 90px;
+  height: 45px; }
