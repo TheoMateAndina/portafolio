@@ -355,29 +355,34 @@ li a.active, li a:hover {
   .fototheo {
     display: flex;
     justify-content: flex-start;
-    margin-left: 63px; }
+    margin-left: 25px; }
   .cajon-presentacion {
     display: grid;
     grid-template-columns: auto;
     justify-content: flex-start;
     margin-left: 50px;
-    width: 50%; }
+    width: 55%; }
   .caja-presentacion {
-    width: 200px; }
+    width: 235px; }
+  .presentacion {
+    text-align: left;
+    font-size: 18px; }
   .caja-web {
-    width: 200px;
-    margin-top: 150px;
-    margin-left: 35px; }
+    width: 235px;
+    margin-top: 200px;
+    margin-left: 0px; }
+  .web {
+    text-align: left; }
   .caja-mis {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: flex-start;
     margin-left: 40px;
     margin-right: 0px; }
   .caja-proyectos {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: flex-start;
     margin-left: 40px;
     margin-right: 0px; }
   .bolva {
