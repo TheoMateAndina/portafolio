@@ -223,3 +223,170 @@ li a.active, li a:hover {
 .btn-primary {
   width: 90px;
   height: 45px; }
+
+@media (max-width: 1300px) {
+  .imadesarrollo {
+    width: 25%; }
+  .navsito .ulesito {
+    margin-right: 80px; }
+  .asito {
+    margin-right: 50px; }
+  .mis-contact {
+    margin-right: 365px; }
+  .cajondeformulario {
+    margin-right: 175px; } }
+
+@media (max-width: 1215px) {
+  .desarrollo {
+    width: 25%; } }
+
+@media (max-width: 975px) {
+  .desarrollo {
+    display: none; }
+  nav ul {
+    margin-right: 50px; }
+  nav ul li a {
+    margin-right: 65px; }
+  .fototheo {
+    margin: 0px 410px; }
+  .caja-presentacion {
+    margin-right: 250px; }
+  .caja-mis {
+    margin-right: 365px; }
+  .caja-proyectos {
+    margin-right: 260px; } }
+
+@media (max-width: 900px) {
+  .checkbtn {
+    display: block; }
+  nav ul {
+    position: absolute;
+    width: 100%;
+    height: 488px;
+    background: #83D9DC;
+    top: 140px;
+    right: 100%;
+    text-align: center;
+    transition: .5s;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center; }
+  nav ul li {
+    margin: 50px 0px;
+    line-height: 30px; }
+  a {
+    font-size: 20px; }
+  li a:hover, li.active {
+    background: none;
+    color: white; }
+  #check:checked ~ ul {
+    right: -50px; }
+  #check:checked ~ .ulesito {
+    right: -80px; }
+  .fototheo {
+    margin: 0px 350px; }
+  .caja-presentacion {
+    margin-right: 195px; }
+  .caja-mis {
+    margin-right: 300px; }
+  .caja-proyectos {
+    margin-right: 150px; }
+  .web {
+    margin-right: 120px; } }
+
+@media (max-width: 760px) {
+  .fototheo {
+    justify-content: flex-start;
+    margin-left: 0px;
+    margin-right: 0px; }
+  .cajon-presentacion {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-bottom: 30px; }
+  .caja-web {
+    flex-flow: row nowrap;
+    justify-content: flex-start; }
+  .web {
+    text-align: left; }
+  .presentacion {
+    text-align: left; }
+  .caja-mis {
+    justify-content: flex-start;
+    margin-left: 40px; }
+  .caja-proyectos {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: flex-start;
+    margin-left: 40px; }
+  .bolva {
+    text-align: left; } }
+
+@media (max-width: 571px) {
+  .fototheo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-left: 100px; }
+  .cajon-presentacion {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-left: 110px;
+    width: 65%; }
+  .caja-presentacion {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 160px;
+    margin-right: 0px; }
+  .presentacion {
+    text-align: center; }
+  .caja-web {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 110px;
+    margin-right: 0px; }
+  .web {
+    text-align: center; } }
+
+@media (max-width: 500px) {
+  .fototheo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 63px; }
+  .cajon-presentacion {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: flex-start;
+    margin-left: 50px;
+    width: 50%; }
+  .caja-presentacion {
+    width: 200px; }
+  .caja-web {
+    width: 200px;
+    margin-top: 150px;
+    margin-left: 35px; }
+  .caja-mis {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 0px; }
+  .caja-proyectos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 0px; }
+  .bolva {
+    font-size: 13px; }
+  .mipor {
+    font-size: 13px; }
+  .mipor a {
+    font-size: 13px; }
+  .bolva a {
+    font-size: 13px; }
+  .mis-proyectos {
+    font-size: 35px; } }
