@@ -356,7 +356,7 @@ li a.active, li a:hover {
     display: flex;
     justify-content: flex-start;
     margin-left: 20px;
-    margin-bottom: 15px; }
+    margin-bottom: 45px; }
   .cajon-presentacion {
     display: grid;
     grid-template-columns: auto;
