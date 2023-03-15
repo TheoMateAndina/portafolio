@@ -55,6 +55,9 @@ li a.active, li a:hover {
 #check {
   display: none; }
 
+hr {
+  display: none; }
+
 .fototheo {
   display: flex;
   flex-flow: row nowrap;
@@ -238,7 +241,9 @@ li a.active, li a:hover {
 
 @media (max-width: 1215px) {
   .desarrollo {
-    width: 25%; } }
+    width: 25%; }
+  .imadesarrollo {
+    display: none; } }
 
 @media (max-width: 975px) {
   .desarrollo {
@@ -273,6 +278,7 @@ li a.active, li a:hover {
     justify-content: center; }
   nav ul li {
     margin: 50px 0px;
+    margin-left: 40px;
     line-height: 30px; }
   a {
     font-size: 20px; }
@@ -280,7 +286,11 @@ li a.active, li a:hover {
     background: none;
     color: white; }
   #check:checked ~ ul {
-    right: -50px; }
+    right: -50px;
+    border-style: none;
+    border-top-style: solid;
+    border-top-color: cadetblue;
+    border-top-width: 2px; }
   #check:checked ~ .ulesito {
     right: -80px; }
   .fototheo {
@@ -293,6 +303,43 @@ li a.active, li a:hover {
     margin-right: 150px; }
   .web {
     margin-right: 120px; } }
+
+@media (max-width: 880px) {
+  .cajon-contact {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: flex-start;
+    margin-left: 40px; }
+  .contact {
+    margin-left: 55px; }
+  .caja-redes {
+    margin-top: 20px;
+    margin-left: 40px; }
+  .cajondeformulario {
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 58%; }
+  .mis-contact {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-left: 40px; }
+  .ubic {
+    margin-bottom: 20px;
+    margin-right: 105px; }
+  .celu {
+    margin-bottom: 20px;
+    margin-right: 105px; }
+  .correo {
+    margin-bottom: 20px;
+    margin-right: 105px; }
+  .redes {
+    margin-right: 105px; }
+  .logoti {
+    margin-top: 15px;
+    margin-right: 105px; }
+  .mb-3 {
+    width: 250px; } }
 
 @media (max-width: 760px) {
   .fototheo {
@@ -351,6 +398,27 @@ li a.active, li a:hover {
   .web {
     text-align: center; } }
 
+@media (max-width: 565px) {
+  .cajon-contact {
+    width: 150px;
+    margin-right: 100px; }
+  .caja-redes {
+    margin-left: 0px; }
+  .cajondeformulario {
+    margin-left: 0px; }
+  .mb-3 {
+    width: 175px; }
+  .mis-contact {
+    width: 250px; }
+  .contact {
+    font-size: 35px;
+    text-align: left;
+    margin-left: 0px; }
+  .caja-redes h3 {
+    font-size: 13px; }
+  .logoti a {
+    font-size: 20px; } }
+
 @media (max-width: 500px) {
   .fototheo {
     display: flex;
@@ -396,3 +464,16 @@ li a.active, li a:hover {
     font-size: 13px; }
   .mis-proyectos {
     font-size: 35px; } }
+
+@media (max-width: 360px) {
+  .cajon-contact {
+    width: 1%;
+    margin-left: -45px; }
+  .cajondeformulario {
+    width: 215px;
+    margin-left: 75px; }
+  .caja-redes {
+    width: 250px;
+    margin-left: 75px;
+    padding: 0px;
+    margin-right: 150px; } }
