@@ -355,7 +355,8 @@ hr {
     margin-bottom: 30px; }
   .caja-web {
     flex-flow: row nowrap;
-    justify-content: flex-start; }
+    justify-content: flex-start;
+    margin-top: 80px; }
   .web {
     text-align: left; }
   .presentacion {
@@ -438,7 +439,7 @@ hr {
     font-size: 18px; }
   .caja-web {
     width: 235px;
-    margin-top: 200px;
+    margin-top: 325px;
     margin-left: 0px; }
   .web {
     text-align: left; }
